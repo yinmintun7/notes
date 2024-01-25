@@ -1,0 +1,41 @@
+dir =all directories
+cd  =change directory
+cd .. =out
+cls  =clear
+exit 
+mkdir (directory name want create)
+
+**to start git **
+-git config --global user.name "name"
+-git config --global user.email "email"
+ 
+*to create repo*
+-git init
+-git status
+-git add .
+-git staus
+-git log
+-git log --oneline
+-git checkout "id"
+-git revert "id"
+-git reset id --hard
+-git branch -a (to view branch)
+-git branch (branch name)(to create branch)
+-git checkout (branch name)(to switch branch)
+-git checkout -b (branch name)(crate branch and switch branch)
+-git branch -D (branch name)(from master branch)
+-git merge (branch name) (to add branch to mater branch)
+*note*-master branch mhr add p yin commit lote ya
+-git remote add origin https://github.com/yinmintun7/My-PortfoliogitTesting.git
+-git push origin master(branch name)(to add github)
+-to create readme file (go readme.so website)
+
+**to delete repo from github**
+-git branch -D (branch name)(from master branch)
+-git push origin --delete (branch name)
+
+**to clone git repo**
+-git clone https://github.com/yinmintun7/My-PortfoliogitTesting.git
+
+to view git remote
+-git remote -v

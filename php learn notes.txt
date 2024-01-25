@@ -1,0 +1,67 @@
+1.Design Principles တွေက လိုက်နာရမယ့် မူတွေgoစ်ပြီး
+ Design Patterns တွေကတော့ ကုဒ်ရေးဟန်တွေပါ။
+
+2.$_POST,$_GET=$_REQUEST
+ API=application program interface
+ file_get_conent=string=unlimit
+ fread=binary data=limited characters
+
+3.header("Location:home.php");=>to change file page
+
+4.to create localDomain=>httpd->vhost.config
+                        window->style->host file
+
+5.setCookie (value,name,expire,path,domain,security)
+security 0=>http,1=>https
+domain=at least 2 dots
+
+6.to delete session by key=>
+unset($_SESSION(['key']);
+
+7.%u=>unsigned integer
+%s=>string
+
+8.number_format($num);
+
+9.strcmp($str1,$str2);
+
+10.to hide error=error_reporting(0);
+
+11.to load xml file=>simplexml_load_file(file.xml)
+                  simplexml_load_string(file.xml)
+
+12.JSON=javascript object notation
+
+13.destructor =class a lote lote p thwr yin destructor a lote lote
+
+14.magic methods=>_get($var) ma shi tae method ko call yin a lote lote
+                  _set($var,$value) ma shi tae value ko assing lote yin a lote lote
+                  _isset($name) ma shi tae value toe method toe ko isset nae sitt yin alote lote
+                  _unset($name) ma shi tae value toe method toe ko unset nae sitt yin alote alote
+                  _call($name) ma shi tae  mathod ko call yin alote lote
+                  _callstatic($name) ma shi tae static mathod ko call yin alote lote
+                  _sleep() serialize lote yin alote lote
+                  _wakeup() unserialize lote yin alote lote
+                  _invoke() object ko method lo call yin alote lote
+15.password_hash($password,PASSWORD_BCRYPT);
+
+16.late static bining
+
+17.is_int()
+   is_string()
+   is_array()
+   is_bool()
+   is_float()
+18.create_function('argument','echo (or) return ta khu khu')
+
+19.to create controller
+-php artisan make:controller --resource controller name
+-php artisan make:controller (controller name)
+-php artisan route:list
+*to clear cache*
+-php artisan optimize:clear
+*to add one column
+-php artisan make:migration add_(columgname)_column_to_(tablename) --table=(tableName)
+
+20.*to create model
+-php artisan make:model (model name) -m

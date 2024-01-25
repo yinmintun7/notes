@@ -1,0 +1,52 @@
+map =true false (return)
+filter =value (return)
+forEach=give array (no return)
+arr.find()=pa hta sone index ka kaung pya
+arr.some()=true false return pyan
+arr.every()=true false ruturn pyan
+
+export default ...
+import a from './....js';
+
+static="static keyword",can change,can use
+public =" ",can change ,can use
+private="# keyword",can't change,can't use
+         but can change ,can use by encapsulation
+
+*to create react-js project*
+*with npm-
+-npx create-react-app (project name)
+*with yarn*
+-yarn create create-app (project name)
+
+npm i bootstrap
+npm uninstall booststrap
+yarn add bootstrap
+yarn remove boostrap
+
+*to run react js project*
+-react 
+-react package
+-react DOM(react DOM vs virtual DOM)
+-babel js(to find error ,advanced code avaible)
+-ESlin   (to find error,advanced code unavaible)
+-webpack(jsx) (to run time first)
+
+vanilar js vs react js=>jsx(javascript syntx expression)
+other=>template base
+react js=>component base(spa framwork)(single page application)
+
+*jsx rules*
+*-return html text
+-must be one parent level=><></>,<div></div>,<React.Fragment></React.Fragment>,<Fragment></Fragment>
+-must be 'className' instand of 'class' in html
+-must be 'htmlFor' instand of 'for' in html
+-all tag must be self closing tag (must contain/)
+
+react documentation
+vd 30
+
+form handling
+-usestate || useref || state
+-usestate |userf =mutable (hooks) (dom control)
+-state  =unmutable

@@ -1,0 +1,10 @@
+The ng-app directive initializes an AngularJS application.
+
+The ng-init directive initializes application data.
+
+The ng-model directive binds the value of HTML controls (input, select, textarea) to application data.
+
+The ng-repeat directive repeats an HTML element:
+
+When naming a directive, you must use a camel case name, w3TestDirective,
+but when invoking it, you must use - separated name, w3-test-directive:

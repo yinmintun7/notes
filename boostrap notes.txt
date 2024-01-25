@@ -1,0 +1,53 @@
+display
+d-block
+d-inline
+d-inline-block
+d-none
+invisible
+
+d-flex(parent)=>inlineblock(width/height)
+(flex-column=>opposite)
+horizontional=algin-items
+vertical=justify-content
+
+horizontional(flex-row)
+justify-content->start,end,center,between,evently,around
+ 
+vertical(parent=>height)(flex-row)
+algin-item->start,end,center,stretch
+
+algin-self(child)->start,end,center,stretch
+
+selectbox=>in class=>"form-select"
+
+checkbox=>in class=>"form-check-input"
+
+form-switch ll shi tal
+
+range,steps
+
+modal
+
+nav bar=>sticky-top
+         fixed-top
+        
+offcanvas
+
+pagination
+
+placeholders
+
+popovers
+
+progress
+
+spiner-border
+
+Toasts
+
+none<576
+sm >=576
+md >=768
+lg >=992
+xl >=1200
+xxl >=1400
